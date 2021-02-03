@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>tic-tac</title>
+<style>
+.tic-header{
+    
+    position: fixed;
+   width:100%;
+   z-index: 10;
+   
+
+}
+ 
+.tic-header .tic li{
+    display: inline-block; 
+}
+
+
+
+.tic-header .tic li a{
+    text-decoration: none;
+    padding: 10px 10px;
+    /* display: block; */
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+   
+}
+.div-p{
+    height: 100px;
+    width: 50%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.home{
+    height: 100vh;
+    background-image: url(./image/tic-tac.jpeg);
+    background-size: cover;
+
+}
+.btn{
+    background-color: #FBD786;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+</style>
+
+</head>
+<body>
+
+    <div class="tic-header">
+        <ul class="tic">
+            <li> <a href="" class="active" >Registeration</a></li>
+            <li> <a href="" class="active" >Login</a></li>
+            <li> <a href="tic.html" class="active" >Home</a></li>
+            <li> <a href="start.html" class="active" target="_blank" >Start Game</a></li>
+        </ul>
+    </div>
+    <div class="home">
+
+    
+    <div class="div-p">
+        <h2>Welcome To Tic Tac Game</h2>
+        <button class="btn">Start Game </button>
+        
+    </div>
+</div>
+</body>
+</html>

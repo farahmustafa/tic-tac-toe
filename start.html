@@ -1,0 +1,90 @@
+<html>
+
+<head>
+    <title>
+Start Game
+    </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+             
+        }
+ .container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./image/tic-tac2.jpeg);
+  background-size: cover;
+}
+
+.play-area {
+  display: grid;
+  width: 300px;
+  height: 300px;
+  grid-template-columns: auto auto auto;
+}
+.tac {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: bold;
+  border: 3px solid black;
+ 
+}
+
+
+
+
+#b0,
+#b1,
+#b2 {
+  border-top: none;
+}
+
+#b0,
+#b3,
+#b6 {
+  border-left: none;
+}
+
+#b6,
+#b7,
+#b8 {
+  border-bottom: none;
+}
+
+#b2,
+#b5,
+#b8 {
+  border-right: none;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    <h2>Tic Tac Game</h2>
+    <div class="play-area">
+        <div id="b0" class="tac"> </div>
+        <div id="b1" class="tac"> </div>
+        <div id="b2" class="tac"> </div>
+        <div id="b3" class="tac"> </div>
+        <div id="b4" class="tac"> </div>
+        <div id="b5" class="tac"> </div>
+        <div id="b6" class="tac"> </div>
+        <div id="b7" class="tac"> </div>
+        <div id="b8" class="tac"> </div>
+    
+    </div>
+
+</div>
+
+
+</body>
+</html>
