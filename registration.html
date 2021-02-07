@@ -1,57 +1,7 @@
 <html>
     <head>
+        <link rel="stylesheet" href="style/css/main.css">
         <title>Registertion</title>
-        <style>
-            body{
-                margin: 0;
-                padding: 0;
-                background-image: url(./image/tic-tac.jpeg);
-                background-size: cover;
-            }
-            .regist{
-                width: 450px;
-                height: 470px;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%,-50%);
-                position: absolute;
-                padding: 60px;
-                margin: 20px;
-                box-sizing: border-box;
-                border: 1px solid #000;
-                box-shadow: 5px 5px 40px #000;
-            }
-         .regist input[type=submit]{
-         width: 30%;
-         border:none;
-         height: 25px;
-         background: #FFC371;
-         font-size: 14px;
-         font-weight: bold;
-         margin: 5px;
-         font-family: serif;
-        
-        }
-         .reg{
-             margin: 5px;
-             padding: 3px;
-             width: 80%;
-             box-sizing: border-box;
-
-         }
-         h1{
-             font-size: 25px;
-             font-family: serif;
-             text-align: center;
-
-         }
-         label{
-             margin: 5px;
-             font-weight: bold;
-             font-family: serif;
-         }
-   
-        </style>
     </head>
     <body>
         <div class="tic-header">
@@ -59,11 +9,11 @@
                 <li> <a href="tic.html" class="active" >Home</a></li>
                 <li> <a href="login.html" class="active1" >Login</a></li>
                 <li> <a href="registration.html" class="active1" >Registertion</a></li>
-                <li> <a href="start.html" class="active1" target="_blank" >Start Game</a></li>
+                <li> <a href="start.html" class="active1"  >Start Game</a></li>
             </ul>
         </div>
 <div class="regist">
-    <h1>Sign Up</h1>
+    <h1 class="reg-h1">Sign Up</h1>
     <form>
      <label for="usern">UserName:</label>
      <input type="text" id="usern" class="reg"><br>
