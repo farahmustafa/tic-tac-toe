@@ -1,0 +1,30 @@
+.tic{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+   
+}
+ 
+.tic-header .tic li{
+    display: inline-block; 
+}
+
+
+
+.tic-header .tic li a{
+    text-decoration: none;
+    padding: 14px 16px;
+     display: block; 
+    color: white;
+    text-align: center;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active{
+    background-color: #F67B50;
+}

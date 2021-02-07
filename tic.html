@@ -1,85 +1,68 @@
 <html>
+
 <head>
-<title>tic-tac</title>
-<style>
-.tic{
-    list-style-type: none;
-    margin: 0px;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-   
-}
- 
-.tic-header .tic li{
-    display: inline-block; 
-}
+    <link rel="stylesheet" href="style/css/main.css">
+    <title>tic-tac</title>
+
+    <style>
+        .div-p {
+            height: 100px;
+            width: 50%;
+            text-align: center;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+        }
+
+        .home {
+            height: 100vh;
 
 
+        }
 
-.tic-header .tic li a{
-    text-decoration: none;
-    padding: 14px 16px;
-     display: block; 
-    color: white;
-    text-align: center;
-}
+        .btn {
+            background-color: #F67B50;
+            font-size: 12px;
+            border: none;
+            color: white;
+            padding: 15px 16px;
+            text-align: center;
+            margin: 2px 2px;
+            cursor: pointer;
+            font-weight: bold;
 
-li a:hover:not(.active) {
-  background-color: #111;
-}
+        }
 
-.active{
-    background-color: #F67B50;
-}
-.div-p{
-    height: 100px;
-    width: 50%;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    position: absolute;
-}
-.home{
-    height: 100vh;
-    
-
-}
-.btn{
-    background-color: #F67B50;
-font-size: 12px;
-  border: none;
-  color: white;
-  padding: 15px 16px;
-  text-align: center;
-  margin: 2px 2px;
-  cursor: pointer;
-  font-weight: bold;
-
-}
-
-</style>
+        body {
+            margin: 0;
+        }
+    </style>
 
 </head>
+
 <body>
 
     <div class="tic-header">
         <ul class="tic">
-            <li> <a href="tic.html" class="active" >Home</a></li>
-            <li> <a href="login.html" class="active1" >Login</a></li>
-            <li> <a href="registration.html" class="active1" >Registertion</a></li>
-            <li> <a href="start.html" class="active1" target="_blank" >Start Game</a></li>
+
+            <li> <a href="tic.html" class="active">Home</a></li>
+            <li>
+                <a href="login.html" class="active1">Login</a>
+            </li>
+            <li> <a href="registration.html" class="active1">Registertion</a></li>
+            <li> <a href="start.html" class="active1" target="_blank">Start Game</a></li>
         </ul>
     </div>
     <div class="home">
 
-    
-    <div class="div-p">
-        <h2>Welcome To Tic Tac Game</h2>
-        <a href="start.html"><button class="btn" >Start Game </button></a>
-        
+
+        <div class="div-p">
+            <h2>Welcome To Tic Tac Game</h2>
+            <a href="start.html"><button class="btn">Start Game </button></a>
+
+        </div>
     </div>
-</div>
 </body>
+
 </html>
