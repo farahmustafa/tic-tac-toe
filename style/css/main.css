@@ -1,10 +1,21 @@
-
-    /*  Header sction  */
+/*   */
 
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(/image/tic-tac.jpeg);
+  background-size: cover;
+
+}
+    /*  Header sction  */
+
+
 .tic{
     list-style-type: none;
     margin: 0px;
@@ -104,13 +115,7 @@ font-size: 25px;
 font-family:serif;
 
 }
-body{
-    margin: 0;
-    padding: 0;
-    background-image: url(/image/tic-tac.jpeg);
-    background-size: cover;
 
-}
 
 /* registration section */
 .regist{
@@ -159,52 +164,147 @@ label{
 /* start game section */
      
 .container {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url(./image/tic-tac.jpeg);
-    background-size: cover;
-  }
+ display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  position: relative;
+}
+
+.play-area {
+  display: grid;
+  width: 300px;
+  height: 300px;
+  grid-template-columns: auto auto auto;
+ 
+}
+.block {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: bold;
+  border: 3px solid black;
+ 
+}
+#box0,
+#box1,
+#box2 {
+  border-top: none;
+}
+
+#box0,
+#box3,
+#box6 {
+  border-left: none;
+}
+
+#box6,
+#box7,
+#box8 {
+  border-bottom: none;
+}
+
+#box2,
+#box5,
+#box8 {
+  border-right: none;
+}
+
+.win{
+  background: green;
+}
+.repl{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+
+.btn1{
+background: rgb(204, 180, 138);
+padding: 8px;
+font-weight: bold;
+}
+
+.modal{
+  display: none;
+}
+.playername{
+margin: 10px;
+padding: 5px;
+width: 200px;
+height: 100px;
+float: left;
+}
+.playername button{
+  background: rgb(121, 118, 113);
+  font-weight: bold;
+  text-align: center;
+  padding: 3px;
+  margin: 5px;
+}
+.playername input{
+  margin: 2px;
+  border-radius: 3px;
+}
+.modal{
+  display:none;
+ z-index: 9999;
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100vw;
+ height: 100vh;
+ background: rgba(0, 0 ,0 ,0.5);
+}
+
+.modal-content{
+position: relative;
+background-color: #fefefe;
+margin: 30px;
+padding: 15px;
+border: 1px solid #888;
+width: 30%;
+top: 30%;
+left: 30%;
+transition: (-30%, -30%);
+}
+.modal-header{
+padding: 2px;
+margin: 4px;
+}
+.close{
+color: rgb(153, 148, 148);
+background: rgb(192, 4, 4);
+float: right;
+font-size: 20px;
+font-weight: bold;
+}
+.modal-header h{
+float: left;
+margin: 8px;
+padding: 3px;
+
+}
+.modal-body{
+font-size: 17px;
+padding: 2px;
+margin: 18px;
+border-bottom: 1px solid rgb(83, 83, 83);
+}
+.headh3{
+  font-weight: bold;
+  font-size: 24px;
   
-  .play-area {
-    display: grid;
-    width: 300px;
-    height: 300px;
-    grid-template-columns: auto auto auto;
-  }
-  .tac {
-    display: flex;
-    width: 100px;
-    height: 100px;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-    font-weight: bold;
-    border: 3px solid black;
-   
-  }
-  #b0,
-  #b1,
-  #b2 {
-    border-top: none;
-  }
-  
-  #b0,
-  #b3,
-  #b6 {
-    border-left: none;
-  }
-  
-  #b6,
-  #b7,
-  #b8 {
-    border-bottom: none;
-  }
-  
-  #b2,
-  #b5,
-  #b8 {
-    border-right: none;
-  }
+
+}
+.closee{
+ padding: 2px;
+margin: 18px;
+}
