@@ -9,7 +9,7 @@
 body{
   margin: 0;
   padding: 0;
-  background-image: url(/image/tic-tac.jpeg);
+  background: linear-gradient(#f7797d, #FBD786,#C6FFDD);
   background-size: cover;
 
 }
