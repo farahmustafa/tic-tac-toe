@@ -135,19 +135,19 @@ font-family:serif;
     border: 1px solid #000;
     box-shadow: 5px 5px 40px #000;
 }
-.regist input[type=submit]{
+.regist input[type="submit"]{
 width: 30%;
 border:none;
 height: 25px;
-background: #c57c7c;
+background: #c4adad;
 font-size: 14px;
 font-weight: bold;
 margin: 5px;
 font-family: serif;
 
 }
-.regist input[type=submit]{
-  background-color: #af8086;
+.regist input[type="submit"]{
+  background-color: #a8777d;
   cursor: pointer;
 }
 .reg{
@@ -235,9 +235,13 @@ label{
 }
 
 .btn1{
-background: rgb(204, 180, 138);
+background: #ad737b;
 padding: 8px;
 font-weight: bold;
+}
+.btn1:hover{
+  background-color: #af8086;
+  cursor: pointer;
 }
 
 .modal{
@@ -250,12 +254,16 @@ width: 200px;
 height: 100px;
 float: left;
 }
-.playername button{
-  background: rgb(121, 118, 113);
+#namebutton{
+  background: #af8e92;
   font-weight: bold;
   text-align: center;
-  padding: 3px;
-  margin: 5px;
+  padding: 4px;
+  margin: 3px;
+}
+#namebutton:hover{
+  background-color: #cfa0a0;
+  cursor: pointer;
 }
 .playername input{
   margin: 2px;
