@@ -9,7 +9,7 @@
 body{
   margin: 0;
   padding: 0;
-  background: linear-gradient(#f7797d, #FBD786,#C6FFDD);
+  background: linear-gradient( #ffefba, #faaca8);
   
 
 }
@@ -86,12 +86,16 @@ li a:hover:not(.active) {
     width: 90%;
     border:none;
     height: 25px;
-    background: #FFC371;
+    background: #ad737b;
     font-size: 14px;
     font-weight: bold;
    margin: 5px;
    font-family: serif;
    
+}
+.log input[type=submit]:hover{
+  background-color: rgb(194, 144, 150);
+  cursor: pointer;
 }
 .log{
     width :400px;
@@ -135,12 +139,16 @@ font-family:serif;
 width: 30%;
 border:none;
 height: 25px;
-background: #FFC371;
+background: #c57c7c;
 font-size: 14px;
 font-weight: bold;
 margin: 5px;
 font-family: serif;
 
+}
+.regist input[type=submit]{
+  background-color: #af8086;
+  cursor: pointer;
 }
 .reg{
  margin: 5px;
