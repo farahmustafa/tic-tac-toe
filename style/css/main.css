@@ -9,8 +9,8 @@
 body{
   margin: 0;
   padding: 0;
-  background: linear-gradient( #ffefba, #faaca8);
-  
+  background-image: url(../image/tic-tac.jpeg);
+  background-size: cover;
 
 }
     /*  Header sction  */
@@ -235,7 +235,7 @@ label{
 }
 
 .btn1{
-background: #ad737b;
+background: #9e9192;
 padding: 8px;
 font-weight: bold;
 }
@@ -255,7 +255,7 @@ height: 100px;
 float: left;
 }
 #namebutton{
-  background: #af8e92;
+  background: #b19c9f;
   font-weight: bold;
   text-align: center;
   padding: 4px;
