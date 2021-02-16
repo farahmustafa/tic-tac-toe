@@ -11,10 +11,9 @@ body{
   padding: 0;
   background-image: url(/image/tic-tac.jpeg);
   background-size: cover;
-
 }
-    /*  Header sction  */
 
+    /*  Header sction  */
 
 .tic{
     list-style-type: none;
