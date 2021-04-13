@@ -69,8 +69,6 @@ li a:hover:not(.active) {
 
 }
 
-
-
 /* login section */
 .inp-box{
     padding: 5px;
@@ -85,7 +83,7 @@ li a:hover:not(.active) {
     width: 90%;
     border:none;
     height: 25px;
-    background: #ad737b;
+    background: #fcb068;
     font-size: 14px;
     font-weight: bold;
    margin: 5px;
@@ -93,7 +91,7 @@ li a:hover:not(.active) {
    
 }
 .log input[type=submit]:hover{
-  background-color: rgb(194, 144, 150);
+  background-color: rgb(240, 180, 112);
   cursor: pointer;
 }
 .log{
@@ -138,15 +136,15 @@ font-family:serif;
 width: 30%;
 border:none;
 height: 25px;
-background: #c4adad;
+background: #fcb068;
 font-size: 14px;
 font-weight: bold;
 margin: 5px;
 font-family: serif;
 
 }
-.regist input[type="submit"]{
-  background-color: #a8777d;
+.regist input[type="submit"]:hover{
+  background: #f8f6f6;
   cursor: pointer;
 }
 .reg{

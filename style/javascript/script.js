@@ -25,12 +25,13 @@ boxes[i].onclick = function () {
   }
 }
 }
-
+var plaName = prompt("Welcome to tic-tac toe ,Please enter your name", "");
+alert('Hello ' + plaName);
 function selectWinnerBoxes(b1, b2, b3 ) {
 b1.classList.add("win");
 b2.classList.add("win");
 b3.classList.add("win");
-var plaName = document.getElementById('player').value;
+
 document.getElementById("winform").style.display="block";
 document.getElementById("player_name").innerHTML="congrats "+ plaName +" you won" ;
 
